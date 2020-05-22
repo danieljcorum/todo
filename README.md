@@ -30,3 +30,11 @@ Mac:
 Windows:
 
 - Idk yet
+
+<H2>All About The Code </H2>
+
+Server.js - Contains the basic rendering functions for the url routes
+
+Views/index.ejs - Contains html injected with javascript to render string arrays and buttons to capture user data
+
+All others are dependancies and meta data. 
