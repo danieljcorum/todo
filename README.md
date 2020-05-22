@@ -20,5 +20,13 @@ Windows:
 Mac:
 
 - Install Homebrew at https://brew.sh/
-- For Git NPM run `brew install npm git`
-- Run `git clone https://github.com/danieljcorum/todo.git ~/Desktop/`
+- To install Git and NPM run `brew install npm git`
+- Run `git clone https://github.com/danieljcorum/todo.git ~/Desktop/todo/`
+- `cd ~/Desktop/todo/`
+- To install the rest of the packages run `npm install -a`
+- To start the app run `node server.js`
+- Open chrome and go to http://localhost:8080
+
+Windows:
+
+- Idk yet
