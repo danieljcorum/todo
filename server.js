@@ -6,6 +6,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var task = [];
 var complete = [];
 
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 //render the ejs and display added task, task(index.ejs) = task(array)
 app.get("/", function(req, res) {
