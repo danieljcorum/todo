@@ -9,7 +9,7 @@ var complete = [];
 app.set('view engine', 'ejs');
 //render the ejs and display added task, task(index.ejs) = task(array)
 app.get("/", function(req, res) {
-  res.render("index", { task: task, complete: complete });
+  res.render("index.ejs", { task: task, complete: complete });
 });
 
 //post route for adding new task

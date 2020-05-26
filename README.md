@@ -37,4 +37,6 @@ Server.js - Contains the basic rendering functions for the url routes
 
 Views/index.ejs - Contains html injected with javascript to render string arrays and buttons to capture user data
 
-All others are dependancies and meta data. 
+All others are dependancies and meta data.
+
+To zip `zip ./todo.zip ./*`
